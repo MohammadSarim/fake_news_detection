@@ -2,7 +2,7 @@
 """
 Created on Sat Feb 22 21:38:40 2020
 
-@author: Muhammad Ali
+@author: Muhammad Sarim
 """
 
 import numpy as np
@@ -14,7 +14,7 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 #Read the data
-df=pd.read_csv('D:\\DataFlair\\"news.csv"')
+df=pd.read_csv('.csv path')
 #Get shape and head
 df.shape
 df.head()
